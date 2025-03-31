@@ -1,0 +1,103 @@
+*{
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h2{
+    margin-top: -15px;
+}
+
+.bgm{
+    object-fit: cover;
+    z-index: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    background-color: white;
+    position: absolute;
+    opacity: 1;
+    border: solid;
+    border-radius: 20px;
+    align-content: center;
+    align-items: center;
+    float: left;
+    text-align: center;
+    height: 50%;
+    width: 40%;
+    left: 430px;
+    top: 130px;
+}
+
+.container-content{
+    padding: 30px;
+}
+
+.icon img{
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+.container input{
+    margin-top: 20px;
+    border: black 2px solid;
+    border-radius: 10px;
+    width: 40%;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#junior{
+    float: left;
+    background-color: lightgreen;
+}
+
+#junior:hover{
+    background-color: yellow;
+}
+
+#senior{
+    background-color: green;
+    color: white;
+}
+
+#senior:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.tbox:hover{
+    cursor: pointer;
+    background-color: rgb(216, 215, 215);
+}
+
+.exception{
+    margin-top: 20px;
+}
+
+#forgot-password{
+    float: left;
+    margin-left: 10px;
+}
+
+.exception a{
+    text-decoration: none;
+    color: green;
+}
+
+.exception a:hover{
+    text-decoration: underline;
+}
+
+#register{
+    float: right;
+    margin-right: 10px;
+}
